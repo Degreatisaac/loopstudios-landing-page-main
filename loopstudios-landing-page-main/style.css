@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+.menu {
+    margin: 3rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu .nav {
+    margin-right: 3rem;
+}
+
+.menu .nav a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu .nav a:hover{
+border-bottom: 2px solid white;
+}
+
+.harmburger {
+    display: none;
+}
+
+.logo_nav {
+    display: none;
+}
+.experience h1 {
+    width: 40rem;
+    color: #fff;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 2rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.hero_img img:first-child {
+    position: absolute;
+    z-index: -999;
+    top: 0;
+}
+
+.hero_img img:last-child {
+    display: none;
+}
+
+.section_two {
+    display: flex;
+    padding: 5rem;
+    margin-top: 10rem;
+}
+
+.interactive {
+    transform: translateX(-10rem);
+    margin-top: 15rem;
+    background: #fff;
+    padding: 5rem;
+    margin-right: -20rem;
+}
+
+.interactive_img img:last-child {
+    display: none;
+}
+
+.interactive h1 {
+    width: 17rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 0%);
+}
+
+.interactive p {
+    width: 31rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: hsl(0, 0%, 41%);
+}
+
+.creations {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: -3rem;
+}
+
+.creations h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.creations a, .see {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    border: 2px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+.creations a:hover, .see:hover {
+    background: black;
+    color: #fff;
+}
+
+.see {
+    display: none;
+}
+
+.creations_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2rem;
+    margin-left: 5rem;
+}
+
+
+.night img:first-child, .soccer img:first-child, .above img:first-child, .pocket img:first-child, .curiosity img:first-child, .fisheye img:first-child, .deep img:first-child, .grid img:first-child {
+    display: block;
+}
+
+.deep_img, .night_img, .soccer_img, .grid_img, .above_img, .pocket_img, .curiosity_img, .fisheye_img {
+    display: none;
+}
+
+.night h1, .soccer h1, .above h1, .pocket h1, .curiosity h1, .fisheye h1 {
+    color: hsl(0, 0%, 55%);
+    width: 12rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: translateY(-8rem);
+    margin-left: 2rem;
+}
+
+.deep h1, .grid h1 {
+    color: hsl(0, 0%, 55%);
+    width: 9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: translateY(-8rem);
+    margin-left: 2rem;
+}
+
+footer {
+    background: black;
+}
+
+.foot_one, .foot_two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_one {
+    margin: 3rem;
+    margin-right: 5rem;
+}
+
+.foot_one img {
+    margin-left: 2rem;
+}
+
+.foot_two {
+    margin-top: 1rem;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.social {
+    cursor: pointer;
+}
+
+.foot_two a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    margin-right:2rem;
+}
+
+.foot_two p {
+    color: hsl(0, 0%, 41%);
+}
+
+.attribution {
+    color: #fff;
+}
+
+@media (max-width:800px) {
+.harmburger {
+    display: block;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.menu .nav a:hover{
+    border-bottom: none;
+    }
+
+.nav {
+    display: block;
+}
+
+.hero_img img:first-child {
+    display: none;
+}
+
+.hero_img img:last-child {
+    display: block;
+    position: absolute;
+    z-index: -999;
+    top: 0;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience h1 {
+    width: fit-content;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+}
+
+.section_two {
+    flex-direction: column;
+    margin-top: 55rem;
+    align-items: center;
+}
+
+.interactive_img img:first-child {
+    display: none;
+}
+
+.interactive_img img:last-child {
+    display: block;
+    width: 100%;
+    margin: 0.1rem;
+}
+
+.interactive {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.interactive h1 {
+    width: 100%;
+}
+
+.interactive p {
+    width: fit-content;
+}
+
+.creations {
+    flex-direction: column;
+    align-items: center;
+}
+
+.creations_grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin: 2rem;
+}
+
+
+
+.night img:first-child, .soccer img:first-child, .above img:first-child, .pocket img:first-child, .curiosity img:first-child, .fisheye img:first-child, .deep img:first-child, .grid img:first-child {
+    display: none;
+}
+
+.deep_img, .night_img, .soccer_img .grid_img, .above_img, .pocket_img, .curiosity_img, .fisheye_img {
+    display: block;
+    width: 100%;
+}
+
+.creations a {
+    display: none;
+}
+
+.see {
+    display: block;
+}
+
+.foot_one, .foot_two {
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot_nav a {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+.social {
+    position: absolute;
+    transform: translateY(15rem);
+}
+
+.foot_two p {
+    margin-top: 4em;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    background: black;
+    text-align: center;
+    z-index: 999;
+    transition: 0.5s;
+}
+
+.nav.active {
+    left: 0;
+}
+.nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    margin-bottom: -1rem;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    cursor: pointer;
+}
+
+.close {
+    width: 2rem;
+    cursor: pointer;
+}
+
+.foot_two p{
+    text-align: center;
+}
+
+
+}
